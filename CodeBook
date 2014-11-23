@@ -10,6 +10,9 @@ walking_downstaist, sitting, standing, laying) while wearing a smartphoe on thei
 linear acceleration adn 3-axial angular velocity at a constant rate of 50Hz was captured. The dataset was split into 2
 groups; test and training.
 
+A more an indepth explanation is here: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
 Each record contained:
 an identifier of the subject
 an activity label 
