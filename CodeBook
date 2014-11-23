@@ -1,0 +1,26 @@
+## Getting and Cleaning Data Course Project
+
+## Summary
+Codebook contains additional info about variables and transformations
+
+## Data Set
+
+Contains results of experiements using a group of 30 volunteers aged 19-48 years.  Each person performed six activities (walking, wlaking_upstairs,
+walking_downstaist, sitting, standing, laying) while wearing a smartphoe on their waist. Using an embedded accelrometer and gyroscope, 3 axial 
+linear acceleration adn 3-axial angular velocity at a constant rate of 50Hz was captured. The dataset was split into 2
+groups; test and training.
+
+Each record contained:
+an identifier of the subject
+an activity label 
+acceleration from teh accelerometer and the body acceleration
+angular velocity from the gyroscope
+561 variable vector with the time variables
+
+
+## Manipulations
+
+Read in files from provided texts and merged together to create one dataset.  Then extracted the mean and standard deviations
+of each measurement.  And merged to include the activity labels.  Then I labeled the data set with descriptive names
+and then produced a dataset with the average of each mean by subject and activity type.
+
